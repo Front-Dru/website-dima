@@ -1,0 +1,93 @@
+@media (max-width: 1140px) {
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: space-around;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  .footer-row {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-col {
+    margin-bottom: 50px;
+  }
+
+  .footer-col:first-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 760px) {
+  .header-title {
+    font-size: 32px;
+  }
+
+  .header-subtitle {
+    font-size: 14px;
+  }
+
+  .services {
+    display: flex;
+    box-sizing: border-box;
+    height: 190px;
+  }
+  .services2 {
+    display: flex;
+    box-sizing: border-box;
+    height: 190px;
+    margin-bottom: 20px;
+  }
+  .service-info {
+    box-sizing: border-box;
+    width: 30%;
+    margin-left: 15px;
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .service-info p {
+    margin-left: 10px;
+  }
+  .reviews img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-copyright-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .footer-copyright p {
+    font-size: 14px;
+  }
+
+  .footer-icons p {
+    font-size: 14px;
+  }
+
+  .footer-contacts p {
+    font-size: 14px;
+    margin: 0;
+    margin-top: 15px;
+  }
+
+  .footer-button {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
